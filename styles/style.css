@@ -270,6 +270,8 @@ align-items: flex-start;
 }
 .footer__column-links{
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .footer__column-link {
   line-height: 30px;
