@@ -24,6 +24,7 @@
   width: 228px;
   height: 32px;
 }
+
 .logo_place_header {
   position: absolute;
   top: 30px;
@@ -36,6 +37,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 }
+
 .header__title {
   padding: 0;
   margin: 0 auto;
@@ -57,10 +59,12 @@ justify-content: center;
   font-size: 18px;
   font-weight: normal;
 }
+
 .header__link {
   color: #2f80ed;
   text-decoration: none;
 }
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -83,6 +87,7 @@ justify-content: center;
 .description {
   margin-top: 100px;
 }
+
 .two-columns {
   width: 80%;
   display: flex;
@@ -99,20 +104,23 @@ justify-content: center;
   color: #2f80ed;
   margin: 0 auto;
 }
+
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
-  
 }
+
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   margin: 0 auto 30px;
-  }
+}
+
 .two-columns__paragraph:last-child {
 margin-bottom: 0;
 }
+
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
@@ -121,8 +129,8 @@ margin-bottom: 0;
 
 .digits {
   margin-top: 100px;
-  
 }
+
 .section-title {
   max-width: 60%;
   line-height: 1.15;
@@ -131,6 +139,7 @@ margin-bottom: 0;
   text-align: center;
   margin: 0 auto 20px;
 }
+
 .section-subtitle {
   max-width: 60%;
   line-height: 34px;
@@ -139,6 +148,7 @@ margin-bottom: 0;
   text-align: center;
   margin: 0 auto 60px;
  }
+
 .table {
   width: 1100px;
   margin: 0 auto;
@@ -150,9 +160,11 @@ margin-bottom: 0;
   row-gap: 60px;
   list-style: none;
 }
+
 .table__cell {
   width: 250px;
 }
+
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
@@ -160,6 +172,7 @@ margin-bottom: 0;
   margin: 0 auto;
   padding: 0;
 }
+
 .table__text {
   line-height: 1.2;
   font-size: 18px;
@@ -179,6 +192,7 @@ margin-bottom: 0;
   position: relative;
   text-align: center;
 }
+
 .feynman__title {
   max-width: 648px;
   line-height: 1.15;
@@ -187,14 +201,16 @@ margin-bottom: 0;
   text-align: center;
   padding-top: 100px;
   margin: 0 auto;
- }
- .feynman__subtitle {
+}
+
+.feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   margin: 70px auto 0;
-  }
- .feynman__link {
+}
+
+.feynman__link {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -203,26 +219,30 @@ margin-bottom: 0;
   position: absolute;
   top: 50%;
   right: 48px;
- }
- .kaufman {
+}
+
+.kaufman {
   background-color: #1f1f1f;
   overflow: hidden;
   position: relative;
- }
- .section-title_theme_dark {
+}
+
+.section-title_theme_dark {
   color: white;
   margin: 90px auto 20px;
- }
- .section-subtitle_theme_dark {
+}
+
+.section-subtitle_theme_dark {
   color: white;
   margin: 0 auto 80px;
- }
- .table_theme_dark {
+}
+
+.table_theme_dark {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 90px;
   row-gap: 80px;
- }
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -230,29 +250,37 @@ margin-bottom: 0;
   margin-right: 0;
   z-index: 1;
 }
+
 .kaufman__triangle {
-  width: 877px;
-  height: 877px;
+  margin: 0;
+  padding: 0;
+  min-width: 877px;
+  min-height: 877px;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: 877px 877px;
+  background-repeat: no-repeat;
   position: absolute;
   top: 0px;
   right: -210px;
 }
+
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
   color: white;
-  
 }
+
 .footer__columns {
   width: 90%;
   min-height: 250px;
   margin: 0 auto;
-  padding-top: 60;
+  padding-top: 60px;
   padding-bottom: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .footer__column_content-copyright {
 flex-basis: 711px;
 display: flex;
@@ -260,16 +288,18 @@ flex-direction: column;
 justify-content: space-between;
 align-items: flex-start;
 }
+
 .footer__author {
   margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
 }
+
 .footer__column_content-info {
-  
   padding-top: 0;
 }
+
 .footer__column-heading {
   line-height: 30px;
   font-size: 18px;
@@ -277,11 +307,13 @@ align-items: flex-start;
   margin: 0 auto;
   padding: 0;
 }
+
 .footer__column-links{
   margin: 20px auto 16px;
   display: flex;
   flex-direction: column;
 }
+
 .footer__column-link {
   line-height: 30px;
   font-size: 18px;
@@ -290,6 +322,7 @@ align-items: flex-start;
   color: white;
   
 }
+
 .footer__social-icon {
   width: 16px;
   height: 16px;
