@@ -5,3 +5,7 @@
     margin: 20px auto;
     padding: 0;
 }
+
+.table__text:last-child {
+    margin-bottom: 0;
+}
